@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+.app{
+    display: flex;
+}
+.board{
+    height: 80vh;
+    background-color: #3B3B3B;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    border: 3px double #FFFFFF;
+}
+.board.simulation{
+    width: 60vw;
+}
+.board.control{
+    width: 25vw;
+}
+path.domain,
+.tick line {
+  stroke: white;
+}
+.tick text {
+  fill: white;
+}
